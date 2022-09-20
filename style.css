@@ -1,0 +1,286 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: auto;
+    padding: auto;
+   
+}
+
+
+main{
+    display: flex;
+   
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.container{
+    background-color: white;
+    width: 1070px;
+    padding: 30px;
+    margin-top: 21px;
+    border-radius: 10px;
+
+}
+
+.header{
+     display: flex;
+  justify-content: space-between;
+
+
+}
+
+.left-header{
+    font-size: 18px;
+}
+
+
+.right-header li{
+        list-style-type: none;
+        display: inline-block;
+        padding: 0 10px;
+        
+}
+.right-header li i{ 
+    font-size: 25px;
+      
+}
+.right-header a{
+    text-decoration: none;
+    color: #6c6c6c;
+    font-weight: 600;
+}
+
+ /* hero section design */
+
+ .heros{
+    margin-top: 80px;
+ }
+
+ .hero{
+    display: flex;
+ }
+
+ .hero-headline{
+    font-size: 50px;
+ }
+ 
+ .hero-head p{
+    font-weight: bold;
+ }
+
+ .hero-head button {
+    background-color: rgb(221, 45, 119);
+    border: none;
+    padding: 10px 20px;
+    color: wheat;
+    border-radius: 30px;
+ }
+ .hero-head button span{ font-weight: 600;
+    margin-right: 5px;
+}
+ 
+ .hero-image img{
+    width: 400px;
+ }
+
+ #hero-image-id {
+    position: absolute;
+  left: 800px;
+  top: 187px;
+  z-index: 1;
+  display: flex;
+ }
+
+ .hero-image-circle{
+    position: relative;
+    left: 100px;
+    bottom: 36px;
+ }
+
+
+ /* company-logos style */
+
+
+ .company-logo{
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    margin: 40px;
+    align-items: center
+ }
+
+ .head-row{
+
+background: linear-gradient(4deg, rgba(246,246,246,1) 9%, rgba(14,14,24,1) 50%, rgba(255,255,255,0.9976365546218487) 93%);
+  
+
+ }
+
+
+
+  /* popular collection design style */
+
+  .section-title{
+    text-align: center;
+    color: rgb(20, 20, 20);
+  }
+
+  .carts{
+    /* display: flex;
+    justify-content: space-around; */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    
+    
+    
+
+}
+
+.cart{
+  
+   box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+    margin-top: 30px;
+       border-radius: 7px;
+  
+    /* justify-items: center; */
+}
+
+.cart-banner img{
+    
+    padding: 10px 20px;
+}
+.cart-box{
+    
+    padding: 0px 40px;
+}
+
+.cart-info{
+    font-size: 10px;
+}
+
+.fa-star.filled{
+    color: gold;
+}
+.fa-star.unfilled{
+    color: gainsboro;
+}
+.cart-title{
+    font-size: 26px;
+    font-weight: 500;
+}
+
+.cart-price{
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.cart-paragraph{
+    font-weight: 700;
+}
+
+/* seemore style desing */
+
+.seemore {
+   
+ display: flex;
+ justify-content: end;
+
+ cursor: pointer;
+
+
+
+
+
+}
+.seemore a{
+ text-decoration: none;
+ align-items: center;
+  color: rgb(221, 45, 119);
+  font-weight: 700;
+ 
+
+}
+.seemore i{
+ text-decoration: none;
+ margin-left: 6px;
+}
+
+
+/* featured products style */
+
+
+ .features{
+    margin-top: 80px;
+    margin-bottom: 80px;
+ }
+
+ .feature{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  
+   
+ 
+    
+ }
+
+ .feature-headline{
+    font-size: 40px;
+    margin-top: 3px;
+ }
+ 
+ .feature-head p{
+    font-weight: bold;
+ }
+
+ .feature-head button {
+    background-color: rgb(221, 45, 119);
+    border: none;
+    padding: 10px 20px;
+    color: wheat;
+    cursor: pointer;
+ }
+ .feature-head button span{ font-weight: 600;
+    margin-right: 5px;
+}
+
+
+ .feature-image img{
+    width: 400px;
+ }
+
+
+ /* footer design style part */
+
+
+ .footer{
+        background-color: rgb(5, 9, 34);
+        color: white;
+        padding:10px 0  40px 0;
+
+ }
+ .footer-introduction{
+    display: flex;
+    justify-content: center;
+ }
+ .footer-paragraph p{
+     
+     display: flex;
+    justify-content: center;
+    font-size: 12px;
+    
+
+ }
+ .footer-socialmedia-icons{
+     display: grid;
+     grid-template-columns:  40px 40px  40px 40px ;
+     justify-content: center;
+     
+ }
+
+
+
+
+
+ 
